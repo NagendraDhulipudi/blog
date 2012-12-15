@@ -1,4 +1,4 @@
-require_relative './title_bundle_helper';
+#require_relative './title_bundle_helper';
 module ApplicationHelper
   
   def getTitle
