@@ -1,0 +1,31 @@
+@import "bootstrap";
+
+.fontStyle
+{
+    color: #1279AC;
+    font-family: Arial;
+    font-size: 24px;
+}
+
+.logo {
+    background: url("header-sprite.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    display: block;
+    background-color: #1279AC;
+    height: 54px;
+}
+
+.maindiv
+{
+margin:0 auto;
+width:960px;
+height:74px;
+background-color:#1279AC;
+}
+
+.colorpallet
+{
+background-color:#1279AC;
+}
+

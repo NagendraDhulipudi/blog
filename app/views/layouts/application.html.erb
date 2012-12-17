@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
+  <title>Snapfish Rails App</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body>
+<body style='margin:0;'>
+<div class='colorpallet'>
+<div class='maindiv'>
+<a title="Visit the Home page" href="/welcome" class="logo"></a>
+</div>
+</div>
 
 <%= yield %>
 

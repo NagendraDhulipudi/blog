@@ -6,9 +6,11 @@ gem 'rails', '3.2.9'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 #gem 'sqlite3'
+gem 'bootstrap-sass', '2.1'
 
 group :development do
-  gem 'sqlite3', '1.3.5'
+  gem 'rspec-rails', '2.11.0'
+  gem 'capybara'
 end
 
 gem 'json'
@@ -27,9 +29,8 @@ end
 
 gem 'jquery-rails'
 
-group :production do
-  gem 'pg', '0.12.2'
-end
+gem 'pg', '0.12.2'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

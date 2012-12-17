@@ -1,5 +1,14 @@
 Blog::Application.routes.draw do
-	resources :posts
+
+#	resources :posts
+#	resources :users
+	
+#	get "posts/index"
+	
+	match '/welcome' => 'posts#index'
+#	 root :to => '/welcome'
+	
+	 match '/signup'  => 'users#new'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
